@@ -1,16 +1,18 @@
+/* Set the overall styling for the body */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: radial-gradient(circle, #1a1a2e, #16213e, #0f3460);
+    font-family: 'Segoe UI', sans-serif; 
+    background: radial-gradient(circle, #1a1a2e, #16213e, #0f3460); 
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    animation: backgroundAnimation 10s infinite alternate;
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
+    animation: backgroundAnimation 10s infinite alternate; 
 }
 
+/* Keyframes for the background animation */
 @keyframes backgroundAnimation {
     0% {
         background: radial-gradient(circle, #1a1a2e, #16213e, #0f3460);
@@ -23,18 +25,20 @@ body {
     }
 }
 
+/* Styling for the music player container */
 .player-container {
-    background: linear-gradient(135deg, #0f3460, #1a1a2e);
-    padding: 20px;
-    border-radius: 20px;
+    background: linear-gradient(135deg, #0f3460, #1a1a2e); 
+    padding: 20px; 
+    border-radius: 20px; 
     width: 90%;
-    max-width: 400px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-    text-align: center;
-    border: 2px solid #1db954;
+    max-width: 400px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); 
+    text-align: center; 
+    border: 2px solid #1db954; 
     animation: pulse 2s infinite;
 }
 
+/* Keyframes for the pulsing animation */
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -50,20 +54,22 @@ body {
     }
 }
 
+/* Styling for the control buttons */
 .controls button {
-    font-size: 24px;
+    font-size: 24px; 
     margin: 10px;
-    background: none;
-    color: #1db954;
+    background: none; 
+    color: #1db954; 
     border: 2px solid #1db954;
-    border-radius: 50%;
-    width: 50px;
+    border-radius: 50%; 
+    width: 50px; 
     height: 50px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; 
     animation: bounce 3s infinite;
 }
 
+/* Keyframes for the bouncing animation */
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
@@ -73,33 +79,37 @@ body {
     }
 }
 
+/* Hover effect for control buttons */
 .controls button:hover {
-    background: #1db954;
-    color: #fff;
-    transform: scale(1.1);
+    background: #1db954; 
+    color: #fff; 
+    transform: scale(1.1); 
 }
 
+/* Styling for the progress bar */
 #progress {
     width: 100%;
-    margin: 15px 0;
-    appearance: none;
+    margin: 15px 0; 
+    appearance: none; 
     height: 5px;
-    background: #404040;
-    border-radius: 5px;
-    outline: none;
-    transition: background 0.3s ease;
+    background: #404040; 
+    border-radius: 5px; 
+    outline: none; 
+    transition: background 0.3s ease; 
 }
 
+/* Styling for the progress bar thumb */
 #progress::-webkit-slider-thumb {
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #1db954;
-    cursor: pointer;
-    animation: glow 2s infinite alternate;
+    appearance: none; 
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%; 
+    background: #1db954; 
+    cursor: pointer; 
+    animation: glow 2s infinite alternate; 
 }
 
+/* Keyframes for the glowing animation */
 @keyframes glow {
     0% {
         box-shadow: 0 0 5px #1db954;
@@ -109,27 +119,31 @@ body {
     }
 }
 
+/* Styling for the volume control */
 .volume-control {
-    margin: 10px 0;
-    color: #1db954;
+    margin: 10px 0; 
+    color: #1db954; 
 }
 
+/* Styling for the playlist */
 .playlist ul {
     list-style: none;
     padding: 0;
 }
 
+/* Styling for each playlist item */
 .playlist li {
-    background: linear-gradient(135deg, #505050, #606060);
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 10px;
+    background: linear-gradient(135deg, #505050, #606060); 
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 10px; 
     cursor: pointer;
-    color: #fff;
-    transition: all 0.3s ease;
+    color: #fff; 
+    transition: all 0.3s ease; 
     animation: fadeIn 1s ease-in-out;
 }
 
+/* Keyframes for the fade-in animation */
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -141,26 +155,29 @@ body {
     }
 }
 
+/* Hover and active state for playlist items */
 .playlist li:hover, .playlist li.active {
-    background: #1db954;
+    background: #1db954; 
     color: #fff;
-    transform: scale(1.05);
+    transform: scale(1.05); 
 }
 
+/* Styling for the footer */
 footer {
     text-align: center;
-    padding: 10px;
-    background: #282828;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
+    padding: 10px; 
+    background: #282828; 
+    color: #fff; 
+    position: fixed; 
+    bottom: 0; 
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    font-size: 14px;
-    border-top: 2px solid #1db954;
-    animation: slideUp 1s ease-in-out;
+    font-size: 14px; 
+    border-top: 2px solid #1db954; 
+    animation: slideUp 1s ease-in-out; 
 }
 
+/* Keyframes for the slide-up animation */
 @keyframes slideUp {
     0% {
         transform: translateY(100%);
