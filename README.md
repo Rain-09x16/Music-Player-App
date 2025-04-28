@@ -115,19 +115,8 @@ Created with ❤️ in 2025.
 4. **File Structure**: Explains the organization of the project files.
 5. **How to Use**: Describes how to interact with the music player.
 6. **Customization**: Guides users on how to modify the project.
-7. **Screenshots**: Placeholder for a screenshot of the music player.
-8. **License**: Specifies the licensing terms.
-9. **Author**: Credits the creator.
+7. **License**: Specifies the licensing terms.
+8. **Author**: Credits the creator.
 
-You can replace the placeholder screenshot path (`assets/screenshot.png`) with an actual screenshot of your project.### Key Sections:
-1. **Features**: Highlights the functionality of the music player.
-2. **Technologies Used**: Lists the tools and technologies used.
-3. **Installation and Setup**: Provides step-by-step instructions to run the project.
-4. **File Structure**: Explains the organization of the project files.
-5. **How to Use**: Describes how to interact with the music player.
-6. **Customization**: Guides users on how to modify the project.
-7. **Screenshots**: Placeholder for a screenshot of the music player.
-8. **License**: Specifies the licensing terms.
-9. **Author**: Credits the creator.
+Let me know if you need further adjustments!
 
-You can replace the placeholder screenshot path (`assets/screenshot.png`) with an actual screenshot of your project.
